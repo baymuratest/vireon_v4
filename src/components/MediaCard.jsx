@@ -74,9 +74,9 @@ export default function MediaCard({ item, index = 0 }) {
 
         <div className={s.meta}>
           {year && <span>{year}</span>}
-          {country && <><span className={s.dot}/>{country}</>}
-          {eps && <><span className={s.dot}/>{eps} эп.</></>}
-          {duration && <><span className={s.dot}/>{duration} мин</></>}
+          {country && <><span className={s.dot} />{country}</>}
+          {eps && <><span className={s.dot} />{eps} эп.</>}
+          {duration && <><span className={s.dot} />{duration} мин</>}
         </div>
 
         {studio && (
